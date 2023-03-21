@@ -1,0 +1,10 @@
+*.class
+*.log
+
+# idea
+/.idea
+/target
+*.iml
+
+### Mac ###
+.DS_Store
