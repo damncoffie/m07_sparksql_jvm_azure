@@ -2,6 +2,10 @@ import org.apache.spark.sql.functions.udf
 import org.apache.spark.sql.{SaveMode, SparkSession}
 import util.Utils.getYearMonths
 
+/**
+ * Use this script to test notebook code locally.
+ *
+ */
 object App {
   val session: SparkSession = SparkSession
     .builder()
